@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="IMG-20241007-WA0000.jpg"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Electrolize&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Monsieur+La+Doulaise&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kevin WILLIAMS - Portfolio</title>
+  </head>
+  <body class="body">
+    <main>
+      <section id="about" class="about">
+        <div class="imgp">
+          <img src="WhatsApp Image 2026-01-25 at 08.57.57.jpeg" alt="" />
+        </div>
+        <p class="p1"><span id="p1"></span></p>
+        <p class="p2" id="p2"><span id="p2"></span>Accessibilité</p>
+        <p class="p3" id="p3"><span id="p3"></span>Humour</p>
+        <p class="p4" id="p4"><span id="p4"></span>Charisme</p>
+        <div class="name">
+          <h2>Kevin WILLIAMS</h2>
+          <p>RGL2</p>
+        </div>
+      </section>
+      <section id="contact" class="contact">
+        <div class="reseau">
+          <a
+            href="https://wa.me/22968102820?text=Bonjour%2FBonsoir%20je%20vous%20contacte%20depuis%20votre%20portefolio%20et%20je%20voudrais%20m%27entretenir%20avec%20vous"
+          >
+            <ion-icon name="logo-whatsapp" class="logo1"></ion-icon>
+          </a>
+          <a href="https://t.snapchat.com/5k6z25Af">
+            <ion-icon name="logo-snapchat" class="logo2"></ion-icon>
+          </a>
+        </div>
+        <div class="glass-black">
+          <h2 class="tag">LAISSEZ UN MESSAGE</h2>
+          <form action="#" method="post" id="contact-form">
+            <textarea
+              id="message"
+              name="message"
+              class="mssgp"
+              placeholder="Laissez un message"
+              required
+            ></textarea>
+            <button type="submit" id="submit" class="btn">Envoyez</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <hr class="footer-hr" />
+      <p class="footerp">© 2026 Kevin WILLIAMS. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#p1", {
+        strings: ["Leadership"],
+        typeSpeed: 150,
+        loop: true,
+      });
+      var typed = new Typed("#p2", {
+        strings: ["Accessibilité"],
+        typeSpeed: 150,
+        loop: true,
+      });
+      var typed = new Typed("#p3", {
+        strings: ["Humour"],
+        typeSpeed: 150,
+        loop: true,
+      });
+      var typed = new Typed("#p4", {
+        strings: ["Charisme"],
+        typeSpeed: 150,
+        loop: true,
+      });
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
