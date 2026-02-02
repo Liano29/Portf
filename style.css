@@ -150,6 +150,13 @@ a {
   margin: 10px;
   cursor: pointer;
   padding: 7vw;
+  
+}
+.logo1{
+  color: #22c55e;
+}
+.logo2{
+  color:#facc15;
 }
 .footer-hr {
   border: none;
@@ -184,3 +191,4 @@ a {
     font-size: 5vw;
   }
 }
+
